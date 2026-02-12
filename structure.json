@@ -1,5 +1,5 @@
 {
   "items": [
-    { "path": "format-id", "title": "Format Identification Tools" }
+    { "path": "format-id", "title": "Format Identification Tools", "description": "Find out how to find out what you've got." }
   ]
 }

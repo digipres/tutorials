@@ -8,6 +8,10 @@ echo "deb [signed-by=/usr/share/keyrings/siegfried-archive-keyring.gpg] https://
 sudo apt-get update && sudo apt-get install siegfried
 ```{{copy}}
 
-You should be able to copy and paste that text into the console on the right, and various logs and notices will spill out.  At the end, you should be able to run this command: `sf --help` and see some information about how to use Siegfried. 
+You should be able to copy and paste that text into the console on the right, and then press return to run it. Various logs and notices will spill out.  But once it's done, you should be able to run this command: 
 
-If that works, then Siegfried is installed, and we can move on to the next step!
+`sf --help` 
+
+and see some information about how to use Siegfried. 
+
+If that works, then we know Siegfried is installed, and we can move on to the next step!

@@ -1,0 +1,23 @@
+{
+  "title": "Format Identification With Siegfried",
+  "description": "Let's learn some",
+  "details": {
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "steps": [
+      {
+        "title": "Installing Siegfried",
+        "text": "010-install-sf/index.md",
+        "verify": "010-install-sf/verify.sh"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

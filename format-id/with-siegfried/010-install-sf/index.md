@@ -6,11 +6,11 @@ If you got to [the Siegfried homepage](https://github.com/richardlehane/siegfrie
 curl -sL "http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x20F802FE798E6857" | gpg --dearmor | sudo tee /usr/share/keyrings/siegfried-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/siegfried-archive-keyring.gpg] https://www.itforarchivists.com/ buster main" | sudo tee -a /etc/apt/sources.list.d/siegfried.list
 sudo apt-get update && sudo apt-get install siegfried
-```{{copy}}
+```{{exec}}
 
-You should be able to copy and paste that text into the console on the right, and then press return to run it. Various logs and notices will spill out.  But once it's done, you should be able to run this command: 
+You should be able to click to execute those commands in the console on the right. Various logs and notices will spill out.  But once it's done, you should be able to run this command: 
 
-`sf --help` 
+`sf --help`{{exec}}
 
 and see some information about how to use Siegfried. 
 
